@@ -76,3 +76,12 @@ input:focus {
 .fa-plus {
     float: right;
 }
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+::placeholder {
+    color: lightgray;
+}

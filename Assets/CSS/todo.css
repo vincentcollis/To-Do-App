@@ -48,3 +48,20 @@ li:hover span {
     width: 40px;
     opacity: 1.0;
 }
+
+input {
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #2980E9;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+/*will only run when user focuses in the input*/
+input:focus {
+    background-color: white;
+    border: 3px solid #2980E9;
+    outline: none;
+}
